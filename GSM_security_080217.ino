@@ -13,7 +13,7 @@ CallGSM call;
 boolean alarmState = false; 					     // Переключатель состояния сигнализации : true - включена, false - выключена
 boolean gsmState = false; 						     // Состояние GSM модуля
 boolean powerState = true;						     // Переключатель для оповещения об отключ/включ. электричества
-char remoteNumber[] = "+380934609903";			     // Контактный номер для управления сигнализацией и отправки оповещений
+char remoteNumber[] = "+380931111111";			     // Контактный номер для управления сигнализацией и отправки оповещений
 
 const char AlarmMessage[] = "Alarm"; 			     // Сообщение о тревоге
 const char PowerOffMessage[] = "Power Lost"; 	     // Сообщение о пропаже электричества
